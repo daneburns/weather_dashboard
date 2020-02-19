@@ -17,10 +17,12 @@ https://daneburns.github.io/weather_dashboard/
 * __CSS__
 
  * Bootstrap Framework
+  
+ * Minor color tweaks
 
 * __Javascript__
   
   * JQuery
   
-  * AJAX Calls
+  * AJAX Calls to a third-party API
 
