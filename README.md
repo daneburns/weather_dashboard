@@ -16,9 +16,7 @@ https://daneburns.github.io/weather_dashboard/
   
 * __CSS__
 
- * Bootstrap Framework
-  
- * Minor color tweaks
+  * Bootstrap Framework
 
 * __Javascript__
   
