@@ -1,6 +1,6 @@
 
 > "How about this weather we've been having"
-                                   Everyone
+  Everyone :grinning:
 
 # Weather Dashboard
 
@@ -13,9 +13,14 @@ https://daneburns.github.io/weather_dashboard/
 
 ### Techniques Employed 
 * __HTML__
+  
 * __CSS__
+
  * Bootstrap Framework
+
 * __Javascript__
+  
   * JQuery
+  
   * AJAX Calls
 
