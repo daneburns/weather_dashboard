@@ -1,7 +1,6 @@
 
->How about this weather
->we've been having
-- Everyone
+> "How about this weather we've been having"
+                                   Everyone
 
 # Weather Dashboard
 
