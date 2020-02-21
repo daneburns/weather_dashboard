@@ -64,7 +64,7 @@ $.ajax({
     })
 })
 
-forecastURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + apikey
+forecastURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + apikey
 $.ajax({
     url: forecastURL,
     method: "GET"
@@ -77,12 +77,12 @@ $.ajax({
     var image = $('<img>')
     var clouds = $('<p>')
     clouds.append(image)
-    image.attr('src', 'http://openweathermap.org/img/wn/' + response.list[i].weather[0].icon + '.png')
+    image.attr('src', 'https://openweathermap.org/img/wn/' + response.list[i].weather[0].icon + '.png')
     var temp = $('<p>').text("Temperature: " + kelvinToF(response.list[i].main.temp) + '°F')
     var humidity = $('<p>').text('Humidity: ' + response.list[i].main.humidity + '%')
     
     $('.forecast').append(div)
-    div.addClass('card d-flex justify-content-center align-text-center p-5 bg-info text-white')
+    div.addClass('card d-flex justify-content-center align-text-center p-3 bg-info text-white')
     div.append(date, clouds, temp, humidity)
     }
     }
@@ -100,14 +100,14 @@ function kelvinToF(kelvin) {
 
 function generateQueryUrl(city) {
 
-    queryURL = 'http://api.openweathermap.org/data/2.5/weather?' + 'q=' + city + apikey
+    queryURL = 'https://api.openweathermap.org/data/2.5/weather?' + 'q=' + city + apikey
     
 
 }
 
 function generateQueryUrlUv(lon, lat) {
 
-    queryURLUv = 'http://api.openweathermap.org/data/2.5/uvi?' + "lat=" + lat + '&lon=' + lon + apikey
+    queryURLUv = 'https://api.openweathermap.org/data/2.5/uvi?' + "lat=" + lat + '&lon=' + lon + apikey
 
 }
 
